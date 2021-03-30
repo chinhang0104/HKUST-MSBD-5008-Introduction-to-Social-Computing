@@ -18,12 +18,14 @@ At the end, we confirmed with mainstream belief of deep neural network outperfor
 ### GNN
 Since pandemic has a geophraical nature, we tried to incorporate this property into our network. Using `networkx` and `dgl`, we used the distance between each province as the edge weight which can reflect the fact that provinces that are further away are harder to reach. 
 
-<img src="https://github.com/fancent/Covid-19-GNN/blob/main/img/graph_structure.png" alt="graph structure" width="49%" border="5" />
+
+
+<img src=https://github.com/chinhang0104/Predicting-COVID-19-using-GNN/blob/chinhang0104/Images/Images/graph_structure.png" alt="graph structure" width="49%" border="5" />
 
 Then, we used similar structure as the model used in [How Powerful are Graph Neural Networks?](https://arxiv.org/pdf/1810.00826.pdf).
 Finally, we stacked our SIR model's prediction with the GNN to create a even better model.
 ### Results
-<img src="https://github.com/fancent/Covid-19-GNN/blob/main/img/graph_1.png" alt="result graph 1" width="49%" border="5" /><img src="https://github.com/fancent/Covid-19-GNN/blob/main/img/graph_2.png" alt="result graph 2" width="49%" border="5" />
+<img src="https://github.com/chinhang0104/Predicting-COVID-19-using-GNN/blob/chinhang0104/Images/Images/graph_1.png" alt="result graph 1" width="49%" border="5" /><img src="https://github.com/chinhang0104/Predicting-COVID-19-using-GNN/blob/chinhang0104/Images/Images/graph_2.png" alt="result graph 2" width="49%" border="5" />
 Above graphs are the mean squared log error of each model by provinces. The rankings of each model are as follow:
 1. SIR Deep GNN
 2. Deep GNN
