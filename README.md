@@ -20,7 +20,7 @@ Since pandemic has a geophraical nature, we tried to incorporate this property i
 
 
 
-<img src=https://github.com/chinhang0104/Predicting-COVID-19-using-GNN/blob/chinhang0104/Images/Images/graph_structure.png" alt="graph structure" width="49%" border="5" />
+<img src="https://github.com/chinhang0104/Predicting-COVID-19-using-GNN/blob/chinhang0104/Images/Images/graph_structure.png" alt="graph structure" width="49%" border="5" />
 
 Then, we used similar structure as the model used in [How Powerful are Graph Neural Networks?](https://arxiv.org/pdf/1810.00826.pdf).
 Finally, we stacked our SIR model's prediction with the GNN to create a even better model.
